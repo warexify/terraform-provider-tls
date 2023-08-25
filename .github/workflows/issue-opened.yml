@@ -8,7 +8,7 @@ jobs:
   issue_triage:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # v3.5.3
+    - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744 # v3.6.0
     - uses: github/issue-labeler@e24a3eb6b2e28c8904d086302a2b760647f5f45c # v3.1
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
